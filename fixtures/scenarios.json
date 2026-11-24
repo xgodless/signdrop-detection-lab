@@ -1,0 +1,49 @@
+{
+  "captures": [
+    {
+      "id": "write_then_load",
+      "host": "SYNTHETIC-WS",
+      "source": "synthetic",
+      "events": "sysmon.xml",
+      "start_utc": "2026-11-24T07:00:00Z",
+      "end_utc": "2026-11-24T07:05:00Z",
+      "collection": {"file_create": "collected", "image_load": "collected"}
+    },
+    {
+      "id": "write_without_matching_load",
+      "host": "SYNTHETIC-WS",
+      "source": "synthetic",
+      "events": "sysmon.xml",
+      "start_utc": "2026-11-24T08:00:00Z",
+      "end_utc": "2026-11-24T08:05:00Z",
+      "collection": {"file_create": "collected", "image_load": "collected"}
+    },
+    {
+      "id": "image_load_unavailable",
+      "host": "SYNTHETIC-WS",
+      "source": "synthetic",
+      "events": "sysmon.xml",
+      "start_utc": "2026-11-24T09:00:00Z",
+      "end_utc": "2026-11-24T09:05:00Z",
+      "collection": {"file_create": "collected", "image_load": "unavailable"}
+    },
+    {
+      "id": "benign_control",
+      "host": "SYNTHETIC-WS",
+      "source": "synthetic",
+      "events": "sysmon.xml",
+      "start_utc": "2026-11-24T10:00:00Z",
+      "end_utc": "2026-11-24T10:05:00Z",
+      "collection": {"file_create": "collected", "image_load": "collected"}
+    },
+    {
+      "id": "truncated_window",
+      "host": "SYNTHETIC-WS",
+      "source": "synthetic",
+      "events": "sysmon.xml",
+      "start_utc": "2026-11-24T11:00:00Z",
+      "end_utc": "2026-11-24T11:05:00Z",
+      "collection": {"file_create": "collected", "image_load": "collected"}
+    }
+  ]
+}

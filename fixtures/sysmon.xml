@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Events xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <!-- These are hand-written test records. Paths and process names are strings. -->
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>11</EventID>
+      <TimeCreated SystemTime="2026-11-24T07:01:00.0000000Z" />
+      <EventRecordID>101</EventRecordID>
+      <Computer>SYNTHETIC-WS</Computer>
+    </System>
+    <EventData>
+      <Data Name="Image">C:\Fixture\sample-writer.exe</Data>
+      <Data Name="TargetFilename">C:\Program Files\Common Files\microsoft shared\ink\HID.DLL</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>7</EventID>
+      <TimeCreated SystemTime="2026-11-24T07:01:30.0000000Z" />
+      <EventRecordID>102</EventRecordID>
+      <Computer>SYNTHETIC-WS</Computer>
+    </System>
+    <EventData>
+      <Data Name="Image">C:\Fixture\sample-reader.exe</Data>
+      <Data Name="ImageLoaded">c:\program files\common files\microsoft shared\ink\hid.dll</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>11</EventID>
+      <TimeCreated SystemTime="2026-11-24T08:01:00.0000000Z" />
+      <EventRecordID>103</EventRecordID>
+      <Computer>SYNTHETIC-WS</Computer>
+    </System>
+    <EventData>
+      <Data Name="Image">C:\Fixture\sample-writer.exe</Data>
+      <Data Name="TargetFilename">C:\Program Files\Common Files\microsoft shared\ink\hid.dll</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>7</EventID>
+      <TimeCreated SystemTime="2026-11-24T08:01:10.0000000Z" />
+      <EventRecordID>104</EventRecordID>
+      <Computer>SYNTHETIC-WS</Computer>
+    </System>
+    <EventData>
+      <Data Name="Image">C:\Fixture\sample-reader.exe</Data>
+      <Data Name="ImageLoaded">D:\Program Files\Common Files\microsoft shared\ink\hid.dll</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>7</EventID>
+      <TimeCreated SystemTime="2026-11-24T08:03:01.0000000Z" />
+      <EventRecordID>105</EventRecordID>
+      <Computer>SYNTHETIC-WS</Computer>
+    </System>
+    <EventData>
+      <Data Name="Image">C:\Fixture\sample-reader.exe</Data>
+      <Data Name="ImageLoaded">C:\Program Files\Common Files\microsoft shared\ink\hid.dll</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>11</EventID>
+      <TimeCreated SystemTime="2026-11-24T09:01:00.0000000Z" />
+      <EventRecordID>106</EventRecordID>
+      <Computer>SYNTHETIC-WS</Computer>
+    </System>
+    <EventData>
+      <Data Name="Image">C:\Fixture\sample-writer.exe</Data>
+      <Data Name="TargetFilename">C:\Program Files\Common Files\microsoft shared\ink\hid.dll</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>11</EventID>
+      <TimeCreated SystemTime="2026-11-24T10:01:00.0000000Z" />
+      <EventRecordID>107</EventRecordID>
+      <Computer>SYNTHETIC-WS</Computer>
+    </System>
+    <EventData>
+      <Data Name="Image">C:\Fixture\sample-updater.exe</Data>
+      <Data Name="TargetFilename">C:\Windows\System32\hid.dll</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>7</EventID>
+      <TimeCreated SystemTime="2026-11-24T10:01:10.0000000Z" />
+      <EventRecordID>108</EventRecordID>
+      <Computer>SYNTHETIC-WS</Computer>
+    </System>
+    <EventData>
+      <Data Name="Image">C:\Fixture\sample-reader.exe</Data>
+      <Data Name="ImageLoaded">C:\Windows\System32\hid.dll</Data>
+    </EventData>
+  </Event>
+  <Event>
+    <System>
+      <Provider Name="Microsoft-Windows-Sysmon" />
+      <EventID>11</EventID>
+      <TimeCreated SystemTime="2026-11-24T11:04:30.0000000Z" />
+      <EventRecordID>109</EventRecordID>
+      <Computer>SYNTHETIC-WS</Computer>
+    </System>
+    <EventData>
+      <Data Name="Image">C:\Fixture\sample-writer.exe</Data>
+      <Data Name="TargetFilename">C:\Program Files\Common Files\microsoft shared\ink\hid.dll</Data>
+    </EventData>
+  </Event>
+</Events>
